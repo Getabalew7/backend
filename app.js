@@ -9,7 +9,7 @@ const app = express();
 app.use(bodyPasrser.json());
 mongoose
   .connect(
-    "mongodb+srv://getch:D7AiDSl1ytSNrPPC@cluster0.qbbojse.mongodb.net/?retryWrites=true&w=majority"
+    "mongodb+srv://username:yourpassword@cluster0.qbbojse.mongodb.net/?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("Successfully connected to mongo DB Atlas!");
